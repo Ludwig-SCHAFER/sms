@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Alerte SMS</title>
+		<link rel="stylesheet" media="screen, print" href="./reset.css" />
+		<link rel="stylesheet" media="screen, print" href="./style.css" />
+	</head>
+	<body>
+		<form>
+			Clé :
+			<br />
+			<input type="text" autocomplete="off" id="key"/>
+			<br />
+			Message :<br />
+			<textarea id="text" rows="5" cols="33" autocomplete="off" ></textarea>
+			<br />
+			Ne pas utiliser la touche "ENTRÉE",<br />
+			cliquer sur le bouton pour envoyer le message.
+			<br />
+			<input type="button" value="Envoyer" id="send"/>
+		</form>
+		<script type="text/javascript" src="script_telephone.js"></script>
+	</body>
+</html>
